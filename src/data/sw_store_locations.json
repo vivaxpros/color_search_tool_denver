@@ -1,0 +1,234 @@
+[
+ {
+   "Address": "5240 E Colfax Ave (Colfax and Glencoe)",
+   "City": "Denver",
+   "State": "CO",
+   "Zip": 80220,
+   "Lat": 39.73999913,
+   "Lon": -104.9261282
+ },
+ {
+   "Address": "15220 W 64th Ave (McIntyre)",
+   "City": "Arvada",
+   "State": "CO",
+   "Zip": 80007,
+   "Lat": 39.81110615,
+   "Lon": -105.1707059
+ },
+ {
+   "Address": "17100 E Smoky Hill Rd",
+   "City": "Centennial",
+   "State": "CO",
+   "Zip": 80015,
+   "Lat": 39.62501745,
+   "Lon": -104.7896399
+ },
+ {
+   "Address": "4601 Tower Rd",
+   "City": "Denver",
+   "State": "CO",
+   "Zip": 80249,
+   "Lat": 39.78054945,
+   "Lon": -104.7728473
+ },
+ {
+   "Address": "5055 W 120th Ave",
+   "City": "Broomfield",
+   "State": "CO",
+   "Zip": 80020,
+   "Lat": 39.91658593,
+   "Lon": -105.0505788
+ },
+ {
+   "Address": "543 Santa Fe Dr (Evans/Dahlia)",
+   "City": "Denver",
+   "State": "CO",
+   "Zip": 80204,
+   "Lat": 39.72491477,
+   "Lon": -104.9987475
+ },
+ {
+   "Address": "1500 W Littleton Blvd",
+   "City": "Littleton",
+   "State": "CO",
+   "Zip": 80120,
+   "Lat": 39.61209312,
+   "Lon": -105.0063197
+ },
+ {
+   "Address": "23850 E Smoky Hill Rd",
+   "City": "Aurora",
+   "State": "CO",
+   "Zip": 80016,
+   "Lat": 39.59947522,
+   "Lon": -104.7109174
+ },
+ {
+   "Address": "2832 S Havana St",
+   "City": "Aurora",
+   "State": "CO",
+   "Zip": 80014,
+   "Lat": 39.66548164,
+   "Lon": -104.8649935
+ },
+ {
+   "Address": "3841 Paris St",
+   "City": "Denver",
+   "State": "CO",
+   "Zip": 80239,
+   "Lat": 39.7707138,
+   "Lon": -104.8489975
+ },
+ {
+   "Address": "1501 W Evans Ave",
+   "City": "Denver",
+   "State": "CO",
+   "Zip": 80223,
+   "Lat": 39.6790231,
+   "Lon": -105.0056445
+ },
+ {
+   "Address": "8996 W Bowles Ave",
+   "City": "Littleton",
+   "State": "CO",
+   "Zip": 80123,
+   "Lat": 39.60829449,
+   "Lon": -105.0977195
+ },
+ {
+   "Address": "1441 W Bayaud Ave",
+   "City": "Denver",
+   "State": "CO",
+   "Zip": 80223,
+   "Lat": 39.71558394,
+   "Lon": -105.0076729
+ },
+ {
+   "Address": "7105 W Colfax Ave",
+   "City": "Lakewood",
+   "State": "CO",
+   "Zip": 80214,
+   "Lat": 39.74080708,
+   "Lon": -105.0758711
+ },
+ {
+   "Address": "552 S Chambers Rd",
+   "City": "Aurora",
+   "State": "CO",
+   "Zip": 80017,
+   "Lat": 39.7066757,
+   "Lon": -104.8091537
+ },
+ {
+   "Address": "3224 S Wadsworth Blvd",
+   "City": "Lakewood",
+   "State": "CO",
+   "Zip": 80227,
+   "Lat": 39.65781086,
+   "Lon": -105.0806488
+ },
+ {
+   "Address": "4697 E Evans Ave",
+   "City": "Denver",
+   "State": "CO",
+   "Zip": 80222,
+   "Lat": 39.67881279,
+   "Lon": -104.9322223
+ },
+ {
+   "Address": "10155 S Parker Rd (at Parkglenn Wy)",
+   "City": "Parker",
+   "State": "CO",
+   "Zip": 80134,
+   "Lat": 39.53474309,
+   "Lon": -104.7682583
+ },
+ {
+   "Address": "5315 W 38th Ave",
+   "City": "Denver",
+   "State": "CO",
+   "Zip": 80212,
+   "Lat": 39.77051695,
+   "Lon": -105.0552876
+ },
+ {
+   "Address": "5225 Leetsdale Dr",
+   "City": "Denver",
+   "State": "CO",
+   "Zip": 80246,
+   "Lat": 39.70863394,
+   "Lon": -104.9267025
+ },
+ {
+   "Address": "1555 E Bridge St",
+   "City": "Brighton",
+   "State": "CO",
+   "Zip": 80601,
+   "Lat": 39.98801988,
+   "Lon": -104.8026246
+ },
+ {
+   "Address": "7731 Wadsworth Blvd",
+   "City": "Arvada",
+   "State": "CO",
+   "Zip": 80003,
+   "Lat": 39.83700915,
+   "Lon": -105.0837462
+ },
+ {
+   "Address": "11455 Washington St",
+   "City": "Northglenn",
+   "State": "CO",
+   "Zip": 80233,
+   "Lat": 39.90461305,
+   "Lon": -104.9782771
+ },
+ {
+   "Address": "5220 Wadsworth Byp",
+   "City": "Arvada",
+   "State": "CO",
+   "Zip": 80002,
+   "Lat": 39.79218662,
+   "Lon": -105.0794075
+ },
+ {
+   "Address": "1701 Chambers Rd",
+   "City": "Aurora",
+   "State": "CO",
+   "Zip": 80011,
+   "Lat": 39.74457142,
+   "Lon": -104.810547
+ },
+ {
+   "Address": "11450 Cherokee St",
+   "City": "Northglenn",
+   "State": "CO",
+   "Zip": 80234,
+   "Lat": 39.90480417,
+   "Lon": -104.9908751
+ },
+ {
+   "Address": "3106 S Parker Rd",
+   "City": "Aurora",
+   "State": "CO",
+   "Zip": 80014,
+   "Lat": 39.66137699,
+   "Lon": -104.8526602
+ },
+ {
+   "Address": "18403 Longs Way",
+   "City": "Parker",
+   "State": "CO",
+   "Zip": 80134,
+   "Lat": 39.52514262,
+   "Lon": -104.7761118
+ },
+ {
+   "Address": "5150 E Arapahoe Rd",
+   "City": "Centennial",
+   "State": "CO",
+   "Zip": 80122,
+   "Lat": 39.594954,
+   "Lon": -104.9270563
+ }
+]
