@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/color_search_tool_denver/static/css/main.6f18ddb9.css",
+    "main.js": "/color_search_tool_denver/static/js/main.73b0439b.js",
+    "static/media/vivax_logo.png": "/color_search_tool_denver/static/media/vivax_logo.82edb294b15baa5eb4c3.png",
+    "static/media/full_logo.png": "/color_search_tool_denver/static/media/full_logo.067183598f659542277f.png",
+    "static/media/house_pin_red.png": "/color_search_tool_denver/static/media/house_pin_red.e8991d017e5dd92d8ec7.png",
+    "static/media/house_pin.png": "/color_search_tool_denver/static/media/house_pin.5a47b0171c54e47f2bff.png",
+    "index.html": "/color_search_tool_denver/index.html",
+    "static/media/list.svg": "/color_search_tool_denver/static/media/list.91468272b5ecd729c30be794c048ecc1.svg",
+    "main.6f18ddb9.css.map": "/color_search_tool_denver/static/css/main.6f18ddb9.css.map",
+    "main.73b0439b.js.map": "/color_search_tool_denver/static/js/main.73b0439b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f18ddb9.css",
+    "static/js/main.73b0439b.js"
+  ]
+}
