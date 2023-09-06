@@ -1,56 +1,43 @@
-import AddressInput from "./AddressInput";
-import FilterInput from "./FilterInput";
-import menu_icon from "../data/list.svg";
-import { useState, useEffect } from "react";
+import AddressInput from './AddressInput';
+import FilterInput from './FilterInput';
+import menu_icon from '../data/list.svg';
+import { useState } from 'react';
+import { useWindowSize } from '../hooks/useWindowSize';
+
+const MIN_WIDTH = 768;
 
 function SideBar({ applyFilters, map, updateCurrLocPin }) {
-  let [collapseState, updateCollapseState] = useState("none");
+    const size = useWindowSize();
+    const [collapseState, updateCollapseState] = useState(false);
+    const displayState = size.width > MIN_WIDTH || collapseState;
 
-  const collapse_section = () => {
-    if (window.innerWidth <= 768) {
-      collapseState === "none"
-        ? updateCollapseState("initial")
-        : updateCollapseState("none");
+    const toggleCollapse = () => {
+        size.width > MIN_WIDTH
+            ? updateCollapseState(false)
+            : updateCollapseState((prev) => !prev);
+    };
 
-      document
-        .getElementById("address_section")
-        .setAttribute("style", `display: ${collapseState}`);
-
-      document
-        .getElementById("filter_section")
-        .setAttribute("style", `display: ${collapseState}`);
-    }
-  };
-
-  useEffect(() => {
-    if (window.innerWidth <= 768) {
-      collapseState === "none"
-        ? updateCollapseState("initial")
-        : updateCollapseState("none");
-      document
-        .getElementById("address_section")
-        .setAttribute("style", `display: ${collapseState}`);
-      document
-        .getElementById("filter_section")
-        .setAttribute("style", `display: ${collapseState}`);
-    }
-  }, []);
-
-  return (
-    <div className="sidebar_container">
-      <img
-        className="menu_icon"
-        src={menu_icon}
-        onClick={collapse_section}
-      ></img>
-      <AddressInput
-        map={map}
-        collapse={collapse_section}
-        updateCurrLocPin={updateCurrLocPin}
-      />
-      <FilterInput applyFilters={applyFilters} collapse={collapse_section} />
-    </div>
-  );
+    if (size)
+        return (
+            <div className="sidebar_container">
+                <img
+                    className="menu_icon"
+                    src={menu_icon}
+                    onClick={toggleCollapse}
+                ></img>
+                <AddressInput
+                    map={map}
+                    collapse={toggleCollapse}
+                    updateCurrLocPin={updateCurrLocPin}
+                    displayState={displayState}
+                />
+                <FilterInput
+                    applyFilters={applyFilters}
+                    collapse={toggleCollapse}
+                    displayState={displayState}
+                />
+            </div>
+        );
 }
 
 export default SideBar;
