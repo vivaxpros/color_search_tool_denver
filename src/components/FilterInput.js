@@ -44,9 +44,9 @@ function FilterInput({ applyFilters, collapse, displayState }) {
                 </label>
                 <select id="compl_year" className="section_half_field">
                     <option>All Years</option>
+                    <option>2023</option>
                     <option>2022</option>
                     <option>2021</option>
-                    <option>2020</option>
                 </select>
                 <button
                     onClick={(event) => {
