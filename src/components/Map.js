@@ -13,7 +13,7 @@ function Map({ displayPins, map, setMap, currLocPin }) {
     <>
       <MapContainer
         center={[39.73313, -105.01491]}
-        zoom={16}
+        zoom={15}
         // make minZoom smaller to allow greater 'zoom-out'
         minZoom={13}
         scrollWheelZoom={true}
